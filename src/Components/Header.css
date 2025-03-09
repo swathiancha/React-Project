@@ -1,0 +1,43 @@
+.HeaderStyle {
+    height: 20px;
+    position: relative;
+    padding: 10px;
+    display: flex;
+}
+
+.leftStyle {
+    /* flex: 1; */
+    /* Takes up 50% of the screen */
+    /* position: relative; */
+    height: 13px;
+}
+
+.leftStyle img {
+    height: 80px;
+    background-color: transparent;
+    margin-left: 40px;
+}
+
+.rightStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 350px;
+    gap: 1px;
+}
+.rightStyle a{
+   margin: 20px;
+   font-size: 18px;
+   /* font-weight: bold; */
+   /* margin-top: 10px; */
+   color: white;
+   text-decoration: none;
+}
+
+.rightStyle a:hover{
+    color: rgb(133, 133, 228);
+ }

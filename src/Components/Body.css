@@ -1,0 +1,12 @@
+.bodystyle{
+    position: relative;
+    top: 30%;
+    left: 30px;
+}
+.bodystyle h2{
+    color: white;
+    font-weight: bold;
+}
+.bodystyle p{
+    color: white;   
+}
